@@ -50,12 +50,12 @@ In your web page:
 
 ### Methods
 
-  Option                                                                               | Role        | Description
+  Method                                                                               | Description
 ---------------------------------------------------------------------------------------|-------------|-------------
- distinct(array)	                                                                   | Method      | Returns a new array with disctinct elements based on the array input.
- union(array1, array2, ..., arrayN)	                                                   | Method      | Returns a new array with disctinct elements based on combining all input arrays
- instersect(array1, array2, ..., arrayN)                                               | Method      | Returns a new array with disctinct elements which are present in all input arrays
- except(array1, array2, ..., arrayN)                                                   | Method      | Returns a new array with disctinct elements which are present in array1 but not in the other input arrays
+ distinct(array)	                                                                   | Returns a new array with disctinct elements based on the array input.
+ union(array1, array2, ..., arrayN)	                                                   | Returns a new array with disctinct elements based on combining all input arrays
+ instersect(array1, array2, ..., arrayN)                                               | Returns a new array with disctinct elements which are present in all input arrays
+ except(array1, array2, ..., arrayN)                                                   | Returns a new array with disctinct elements which are present in array1 but not in the other input arrays
 
 ## License 
 
