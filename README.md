@@ -7,24 +7,24 @@ This plugin requires jQuery 1.2+
 
 ## Examples:
 
-'''javascript
+```javascript
 $.distinct([1, 2, 2, 3])
-'''
+```
 gives the result [1,2,3]
 
-'''javascript
+```javascript
 $.union([1, 2, 2, 3], [2, 3, 4, 5, 5])
-'''
+```
 gives the result [1,2,3,4,5]
 
-'''javascript
+```javascript
 $.instersect([1, 2, 2, 3], [2, 3, 4, 5, 5])
-'''
+```
 gives the result [2,3]
 
-'''javascript
+```javascript
 $.except([1, 2, 2, 3], [2, 3, 4, 5, 5])
-'''
+```
 gives the result [1]
 
 
