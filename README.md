@@ -9,7 +9,7 @@ This plugin has been heavily tested. There are several automated tests for each 
 
 This plugin requires jQuery 1.2+
 
-## Examples:
+## Examples
 
 ### Distinct
 ```javascript
@@ -35,7 +35,7 @@ $.except([1, 2, 2, 3], [2, 3, 4, 5, 5])
 ```
 gives the result [1]
 
-## Usage:
+## Usage
 Download the [production version][min] or the [development version][max].
 
 [min]: https://raw.github.com/KristianAbrahamsen/jquery.arrayUtilities/master/src/jquery.arrayUtilities.min.js
