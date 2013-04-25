@@ -1,6 +1,6 @@
 /********************************************************************
-* Collection util
-* MIT lisence
+* jQuery Array Utilities
+* MIT license
 * Kristian Marheim Abrahamsen, 2013
 * https://github.com/KristianAbrahamsen/jquery.arrayUtilities
 *********************************************************************/
