@@ -1,7 +1,9 @@
 # jQuery Array Utilities 
 
 Use the set operations UNION, INTERSECT, EXCEPT, known from SQL, to extract data from arrays.
-DISTINCT is also available to extract an array with distinct values.
+DISTINCT is also available to extract an array with distinct values. 
+
+If you are familiar with with LINQ and .NET you may have used these methods on IEnumerable collections. 
 
 This plugin has been heavily tested. There are several automated tests for each method in this plugin.
 
@@ -51,7 +53,7 @@ In your web page:
 ### Methods
 
   Method                                                                               | Description
----------------------------------------------------------------------------------------|-------------|-------------
+---------------------------------------------------------------------------------------|--------------------------
  distinct(array)	                                                                   | Returns a new array with disctinct elements based on the array input.
  union(array1, array2, ..., arrayN)	                                                   | Returns a new array with disctinct elements based on combining all input arrays
  instersect(array1, array2, ..., arrayN)                                               | Returns a new array with disctinct elements which are present in all input arrays
@@ -82,4 +84,5 @@ CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-
+### Release History
+v0.0.1 - 25 April 2013 - First version of library code and documentation ready.
