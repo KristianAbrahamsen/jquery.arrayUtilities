@@ -7,22 +7,22 @@ This plugin requires jQuery 1.2+
 
 ## Examples:
 
-'''bash
+'''javascript
 $.distinct([1, 2, 2, 3])
 '''
 gives the result [1,2,3]
 
-'''bash
+'''javascript
 $.union([1, 2, 2, 3], [2, 3, 4, 5, 5])
 '''
 gives the result [1,2,3,4,5]
 
-'''bash
+'''javascript
 $.instersect([1, 2, 2, 3], [2, 3, 4, 5, 5])
 '''
 gives the result [2,3]
 
-'''bash
+'''javascript
 $.except([1, 2, 2, 3], [2, 3, 4, 5, 5])
 '''
 gives the result [1]
