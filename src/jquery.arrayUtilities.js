@@ -1,7 +1,8 @@
 /********************************************************************
 * Collection util
+* MIT lisence
 * Kristian Marheim Abrahamsen, 2013
-* http://github.com/KevinSheedy/jquery.alphanum
+* https://github.com/KristianAbrahamsen/jquery.arrayUtilities
 *********************************************************************/
 
 (function ($) {
