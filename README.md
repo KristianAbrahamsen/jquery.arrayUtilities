@@ -23,9 +23,9 @@ $.union([1, 2, 2, 3], [2, 3, 4, 5, 5])
 ```
 gives the result [1,2,3,4,5]
 
-### Instersect
+### Intersect
 ```javascript
-$.instersect([1, 2, 2, 3], [2, 3, 4, 5, 5])
+$.intersect([1, 2, 2, 3], [2, 3, 4, 5, 5])
 ```
 gives the result [2,3]
 
@@ -56,7 +56,7 @@ In your web page:
 ---------------------------------------------------------------------------------------|--------------------------
  distinct(array)	                                                                   | Returns a new array with disctinct elements based on the array input.
  union(array1, array2, ..., arrayN)	                                                   | Returns a new array with disctinct elements based on combining all input arrays
- instersect(array1, array2, ..., arrayN)                                               | Returns a new array with disctinct elements which are present in all input arrays
+ intersect(array1, array2, ..., arrayN)                                                | Returns a new array with disctinct elements which are present in all input arrays
  except(array1, array2, ..., arrayN)                                                   | Returns a new array with disctinct elements which are present in array1 but not in the other input arrays
 
 ## License 
@@ -85,4 +85,5 @@ TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ## Release History
+v0.0.2 - 25 April 2013 - Minor documentation changes.
 v0.0.1 - 25 April 2013 - First version of library code and documentation ready.
