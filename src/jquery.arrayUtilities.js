@@ -1,13 +1,16 @@
 /********************************************************************
-* jQuery Array Utilities
-* MIT license
+* Collection util
 * Kristian Marheim Abrahamsen, 2013
+* MIT-Lisence
 * https://github.com/KristianAbrahamsen/jquery.arrayUtilities
 *********************************************************************/
 
 (function ($) {
     var plugin = {};
 
+    /*
+    * Checks if all function arguments are arrays
+    */
     var checkIfAllArgumentsAreArrays = function (functionArguments) {
         for (var i = 0; i < functionArguments.length; i++) {
             if (!(functionArguments[i] instanceof Array)) {
@@ -16,6 +19,9 @@
         }
     }
 
+    /*
+    * Returns a new array with distinct elements
+    */
     plugin.distinct = function (array) {
         if (arguments.length != 1) throw new Error('There must be exactly 1 array argument!');
         checkIfAllArgumentsAreArrays(arguments);
@@ -33,6 +39,9 @@
         return result;
     }
 
+    /*
+    * Return a new array with distinct elements wich is an union of all input arrays 
+    */
     plugin.union = function (/* minimum 2 arrays */) {
         if (arguments.length < 2) throw new Error('There must be minimum 2 array arguments!');
         checkIfAllArgumentsAreArrays(arguments);
@@ -54,6 +63,9 @@
         return result;
     }
 
+    /*
+    * Returns a new array with distinct elements which is a intersection of all input arrays
+    */
     plugin.intersect = function (/* minimum 2 arrays */) {
         if (arguments.length < 2) throw new Error('There must be minimum 2 array arguments!');
         checkIfAllArgumentsAreArrays(arguments);
@@ -85,6 +97,9 @@
         return result;
     }
 
+    /*
+    * Returns a new array with distinct elements from the first array input elements which are not present in the other arrays
+    */
     plugin.except = function (/* minimum 2 arrays */) {
         if (arguments.length < 2) throw new Error('There must be minimum 2 array arguments!');
         checkIfAllArgumentsAreArrays(arguments);
